@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig1.png">
+  <img width="80%" height="auto" src="resources/fig1.png">
 </p>
 <p align="center">
   An illustration of our proposed method architecture. We define the two domain inputs as source and target, where the source represents the labeled skeleton sequence of one view (or subject). The target represents the unlabeled skeleton sequence of another view (or subject). Our network includes a feature extractor, source task classifier Cs, target task classifier Ct and a domain classifier Cst. Weights of all layers of feature extractor are shared for both source and target domain, and the Cst shares neurons with Cs and Ct. The green and orange colors illustrate the data flow of source and target, respectively. The right column shows a series of loss functions, please refer to our paper for the definition details.
@@ -20,29 +20,21 @@ In this paper, we proposed a novel action recognition network based on CNN and l
   <img width="80%" height="auto" src="resources/fig2.png">
 </p>
 <p align="center">
-Qualitative results for two-class segmentation task. Columns 1 and 2 present the input real COVID-19 CT images and corresponding ground truth, while Column 6 is the segmentation result of our proposed method. The first to last rows are the results when taking ground-glass opacity (a), consolidation (b), infection (c) and the lung (d) as the segmentation object, respectively.
+Confusion matrix of the baseline (ResNet-50) and our proposed method on NTU RGB+D dataset across cross-subject (CS) and cross-view (CV) evaluation setups. X-axis (True class) and Y-axis (Predicted class) are associated through the indices of action classes.
 </p>
 
-<p align="center">
-  <img width="80%" height="auto" src="resources/fig3.png">
-</p>
-<p align="center">
-Qualitative results for multi-class segmentation task. Columns 1 and 2 show the input real COVID-19 CT images and corresponding ground truth, in which the ground-glass opacity is marked in blue, consolidation is marked in green, and the lung is marked in red. Columns 7 is the segmentation result for our proposed method.
-</p>
 
 # Acknowlegements
 This work was supported by the Major Project of the Korea Institute of Civil Engineering and Building Technology(KICT) [grant number number 20210397-001].
 
 # Citation
 ```
-@article{chen2022unsupervised,
-  title={Unsupervised domain adaptation based COVID-19 CT infection segmentation network},
-  author={Chen, Han and Jiang, Yifan and Loew, Murray and Ko, Hanseok},
-  journal={Applied Intelligence},
-  volume={52},
-  number={6},
-  pages={6340--6353},
-  year={2022},
-  publisher={Springer}
+@inproceedings{chen2021action,
+  title={Action Recognition with Domain Invariant Features of Skeleton Image},
+  author={Chen, Han and Jiang, Yifan and Ko, Hanseok},
+  booktitle={2021 17th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  pages={1--7},
+  year={2021},
+  organization={IEEE}
 }
 ```
