@@ -15,9 +15,9 @@ Due to the fast processing-speed and robustness it can achieve, skeleton-based a
 In this paper, we proposed a novel action recognition network based on CNN and leverages unlabeled skeleton data from multiple views or subjects to learn view-invariant or subject-invariant feature representations of skeleton images. Our network learned the robust features for action recognition tasks by two-level domain adversarial learning strategy and entropy minimization. We trained our network on the NTU RGB+D dataset and demonstrated the effectiveness of our method on both cross-subject and cross-view setups. Experimental results showed that our proposed network outperforms baseline and state-of-the-art CNN-based methods. 
 
 
-# COVID-19 CT Infection Segmentation Results
+# Action Recognition Classification Confusion Matrix
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig2.png">
+  <img width="60%" height="auto" src="resources/fig2.png">
 </p>
 <p align="center">
 Confusion matrix of the baseline (ResNet-50) and our proposed method on NTU RGB+D dataset across cross-subject (CS) and cross-view (CV) evaluation setups. X-axis (True class) and Y-axis (Predicted class) are associated through the indices of action classes.
