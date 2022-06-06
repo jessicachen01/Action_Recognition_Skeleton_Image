@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 
-title: Action recognition with domain invariant features of skeleton image
+title: Action recognition with domain invariant features of skeleton image 
 description: A novel domain adaptation-based method proposed for improving the performance of CNN-based action recognition network by using the unlabeled skeleton data. <br />
