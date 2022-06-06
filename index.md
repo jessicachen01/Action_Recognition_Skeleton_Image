@@ -17,7 +17,7 @@ In this paper, we proposed a novel action recognition network based on CNN and l
 
 # Action Recognition Classification Confusion Matrix
 <p align="center">
-  <img width="60%" height="auto" src="resources/fig2.png">
+  <img width="50%" height="auto" src="resources/fig2.png">
 </p>
 <p align="center">
 Confusion matrix of the baseline (ResNet-50) and our proposed method on NTU RGB+D dataset across cross-subject (CS) and cross-view (CV) evaluation setups. X-axis (True class) and Y-axis (Predicted class) are associated through the indices of action classes.
